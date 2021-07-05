@@ -130,3 +130,23 @@ section{
     color: rgb(61, 59, 59);
     font-weight: 200;
 }
+/* ======= slider area ===== */
+.slider-area img{
+    width: 100%;
+    border-radius: 10px;
+}
+.slider-btn{
+    display: flex;
+    justify-content: center;
+}
+.slider-btn a{
+    height: 16px;
+    width: 16px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.slider-area .active{
+    background-color: black;
+}
