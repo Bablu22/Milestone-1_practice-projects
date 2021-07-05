@@ -1,0 +1,132 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    /* background-color: #ED1F67;
+    background-image: url(images/img-01.jpg);  */
+    /* background-image: url(images/img-01.jpg), linear-gradient(#ed1f67,#ED1F67);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover; */
+    background-image: linear-gradient(#ff0b60e0,#ff0b60), url(images/img-01.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+section{
+    max-width: 1140px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow:  rgba(100, 100, 111, 0.2) /*0px 7px 29px 0px*/;
+    margin: 20px auto 40px;
+}
+.container{
+    max-width: 1030px;
+    margin: auto;
+    padding: 70px 40px;
+}
+
+/* ======== Header part ===== */
+.header-content{
+    text-align: center;
+    margin: 70px 0;
+}
+.header-content h1{
+    color: white;
+    font-size: 3.5em;
+    margin-top: 60px;
+    margin-bottom: 0;
+}
+.header-content span{
+    color: #dad6d8;
+    font-size: 1.2em;
+    font-weight: lighter;
+}
+
+.header-social{
+    display: flex;
+    margin: 30px auto;
+    justify-content: center;
+}
+.header-social img{
+    width: 25px;
+    margin:  0 20px;
+}
+/* ====== About me section ===== */
+.about-content{
+    display: flex;
+}
+.about-content img{
+    width:325px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+.about-content p{
+    font-weight: lighter;
+    color: rgb(58, 51, 51);
+    width: 80%;
+    text-align: justify;
+}
+
+/* ===== Project Area ======= */
+.project-content{
+    display: flex;
+}
+.project-item{
+    margin-right: 40px;
+}
+.project-item img{
+    width: 325px;
+}
+
+/* ==== Work Area ===== */
+.work-content h2{
+    padding-bottom: 40px;
+}
+.work-content span{
+    font-weight: lighter;
+    color: rgb(117, 115, 115); 
+    padding-bottom: 40px;
+}
+.work-content h3{
+    margin-top: 3px;
+    font-weight: 600;
+}
+.work-content p{
+    font-weight: 200;
+    color:rgb(58, 56, 56);
+    padding-bottom: 20px;
+}
+
+/* ==== Education Content==== */
+.edu-area h2{
+    padding-bottom: 40px;
+}
+.edu-content{
+    display: flex;
+    margin: auto;
+}
+.edu-item{
+    margin-right: 210px;
+}
+.edu-item h3{
+    font-weight: 600;
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
+
+/* ==== Language Area =====*/
+.language-content{
+    display: flex;
+   
+}
+.language-content p{
+    margin-right: 225px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.language-content p span{
+    color: rgb(61, 59, 59);
+    font-weight: 200;
+}
